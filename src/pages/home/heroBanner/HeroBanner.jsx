@@ -31,15 +31,18 @@ const HeroBanner = () => {
 
     return (
         <div className="heroBanner">
+             
+
             {!loading && (
                 <div className="backdrop-img">
                     <Img src={background} />
                 </div>
             )}
-
+           
             <div className="opacity-layer"></div>
             <ContentWrapper>
                 <div className="heroBannerContent">
+                {(data === undefined || data === null) && <h2>Please use a vpn if page is not loading</h2>}
                     <span className="title">Welcome.</span>
                     <span className="subTitle">
                         Millions of movies, TV shows and people to discover.

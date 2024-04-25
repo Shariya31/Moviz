@@ -103,6 +103,7 @@ const Carousel = ({ data, loading, endpoint, title }) => {
                     </div>
                 ) : (
                     <div className="loadingSkeleton">
+                        <h2>Please use a vpn</h2>
                         {skItem()}
                         {skItem()}
                         {skItem()}

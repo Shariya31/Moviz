@@ -155,7 +155,7 @@ const Explore = () => {
                             </InfiniteScroll>
                         ) : (
                             <span className="resultNotFound">
-                                Sorry, Results not found!
+                                Sorry, Results not found! Please use a vpn 
                             </span>
                         )}
                     </>
